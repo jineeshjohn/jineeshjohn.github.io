@@ -20,7 +20,6 @@
     .color1 {
       color: #dad7d7;
       font-size: 12pt;
-      font-style: italic;
       text-transform: uppercase;
       letter-spacing: 7px;
       font-weight: bold;
@@ -29,13 +28,15 @@
     .right-border {
       border-right: 1px solid #ccc;
     }
+    .left-border {
+      border-left: 1px solid #e0e0e0;
+    }
 
     .company {
       font-size: 12px;
       font-weight: bold;
-      font-style: italic;
       color: #1abc9c;
-    }
+    } 
 
     circle {
       stroke-width: 5px;
@@ -173,25 +174,27 @@
     .badge {
       display: inline-block;
       min-width: 10px;
-      padding: 3px 10px;
+      padding: 3px 8px;
       font-size: 12px;
-      font-weight: bold;
+      font-weight: normal;
       line-height: 1;
       color: #17365d;
       text-align: center;
       white-space: nowrap;
       vertical-align: middle;
-      border-radius: 10px;
+      border-radius: 5px;
       background: transparent;
-      border: 1px solid;
+      border: 1px solid #e2dfdf;
+      font-style: italic;
     }
 
     .techStack span {
-      border: 1px solid #ccc;
+      border: 1px solid #f1eded;
       border-radius: 5px;
       padding: 3px 5px;
       display: inline-block;
-      font-size: 11px;
+      font-size: 16px;
+      font-weight: bold;
     }
   </style>
 </head>
@@ -388,17 +391,14 @@
         </tr>
       </tbody>
     </table>
-
-
-
     <h2 class="color1">Work experience</h2>
     <div class="row">
-      <div class="col-xs-3 right-border">
-        <em class="badge">July 2018 - current</em>
+      <div class="col-xs-3">
         <div class="designation">Full Stack JavaScript Developer</div>
         <div class="company">Virtusa - Lloyds banking group</div>
+        <em class="badge">July 2018 - July 2019</em>
       </div>
-      <div class="col-xs-9">
+      <div class="col-xs-9 left-border">
         <ul>
           <li>
             Create framework for testing UI using design principles
@@ -421,12 +421,12 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-3 right-border">
-        <em class="badge">July 2017 - May 2018</em>
+      <div class="col-xs-3">
         <div class="designation">Frontend Developer</div>
         <div class="company">Nationwide Building Society</div>
+        <em class="badge">July 2017 - May 2018</em>
       </div>
-      <div class="col-xs-9">
+      <div class="col-xs-9 left-border">
         <ul>
           <li>
             Build applications according to the design and provide designers with feedback and suggest trade-offs when required
@@ -452,15 +452,17 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-3 right-border">
-        <em class="badge">Aug 2015 - June 2017</em>
+      <div class="col-xs-3">
         <div class="designation">Senior Software Engineer</div>
         <div class="company">John Wiley &amp; Sons</div>
+        <em class="badge">Aug 2015 - June 2017</em>
       </div>
-      <div class="col-xs-9">
+      <div class="col-xs-9 left-border">
         <ul>
-          <li>Develop new features using React - Redux</li>
+          <li>Build dashboard to show the relationship between the chemical components using `D3.js`</li>
+          <li>Improve image quality by converting jpegs to svgs keeping performance</li>
           <li>Migrate backbone project to React - Redux</li>
+          <li>Develop new features using React - Redux</li>
         </ul>
       </div>
     </div>
@@ -470,12 +472,12 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-3 right-border">
-        <em class="badge">Sep 2014 - Jun 2015</em>
+      <div class="col-xs-3">
         <div class="designation">Senior Software Engineer</div>
         <div class="company">Symantec Corporation</div>
+        <em class="badge">Sep 2014 - Jun 2015</em>
       </div>
-      <div class="col-xs-9">
+      <div class="col-xs-9 left-border">
         <ul>
           <li>
             CIC - Core Front End Developer to manage the UI developed using OOJS and EXTJs
@@ -491,12 +493,12 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-3 right-border">
-        <em class="badge">Nov 2012 - Aug 2014</em>
+      <div class="col-xs-3">
         <div class="designation">Senior Software Engineer</div>
         <div class="company">Avaya</div>
+        <em class="badge">Nov 2012 - Aug 2014</em>
       </div>
-      <div class="col-xs-9">
+      <div class="col-xs-9 left-border">
         <ul>
           <li>Ported ExtJs2.3 to Ext.4.1</li>
           <li>Integrated a build system for upgrading collaboration pod</li>
@@ -514,12 +516,12 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-3 right-border">
-        <em class="badge">Dec 2009 - Oct 2012</em>
+      <div class="col-xs-3">
         <div class="designation">Senior Software Engineer</div>
         <div class="company">Amadeus - Ness Technologies</div>
+        <em class="badge">Dec 2009 - Oct 2012</em>
       </div>
-      <div class="col-xs-9">
+      <div class="col-xs-9 left-border">
         <ul>
           <li>
             Framework developer developing templating framework (ariatemplates.com) an open source framework maintained in GitHub(github.com/ariatemplates)
@@ -537,12 +539,12 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-3 right-border">
-        <em class="badge">July 2007 - Dec 2009</em>
+      <div class="col-xs-3">
         <div class="designation">Software Engineer</div>
         <div class="company">Stridus Infotech</div>
+        <em class="badge">July 2007 - Dec 2009</em>
       </div>
-      <div class="col-xs-9">
+      <div class="col-xs-9 left-border">
         <ul>
           <li>
             Conformus - Develop UI templates and custom tags in Java and provide dynamic behaviour with JS
@@ -559,12 +561,12 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-3 right-border">
-        <em class="badge">Oct 2006 - July 2007</em>
+      <div class="col-xs-3">
         <div class="designation">Web Developer</div>
         <div class="company">S&amp;S Media</div>
+        <em class="badge">Oct 2006 - July 2007</em>
       </div>
-      <div class="col-xs-9">
+      <div class="col-xs-9 left-border">
         <ul>
           <li>
             Sda-India - Creating html mock-ups and improving the user experience using AJAX
@@ -582,33 +584,21 @@
         <h2 class="color1">Education</h2>
       </div>
     </div>
-    <div class="row">
-      <div class="col-xs-3">
-        <div class="badge">2006-2009</div>
-        <div>MCA - 62%</div>
-      </div>
-      <div class="col-xs-3">
-        <div class="badge">2003-2006</div>
-        <div>BSc-IT - 68%</div>
-      </div>
-      <div class="col-xs-3">
-        <div class="badge">2003</div>
-        <div>HSC - 63%</div>
-      </div>
-      <div class="col-xs-3">
-        <div class="badge">2001</div>
-        <div>SSC - 69%</div>
-      </div>
+    <div>
+      <ul>
+        <li>Master of computer application - MCA, Computer science <div class="badge">2006 - 2009</div></li>
+        <li>Bachelor of science - B.Sc, Information Technology <div class="badge">2003 - 2006</div></li>
+      </ul>
     </div>
     <hr />
     <h2 class="color1">Project summary</h2>
     <div class="row">
-      <div class="col-xs-3 right-border">
+      <div class="col-xs-3">
         <em>Chemplanner</em>
         <div>John Wiley and Sons</div>
         <div>React-Redux, Backbone, RequireJs</div>
       </div>
-      <div class="col-xs-9">
+      <div class="col-xs-9 left-border">
         <em>Description:</em> Wiley ChemPlanner is workflow product that helps chemists find the best selection of diverse and
         viable routes for their synthesis. Its solution space includes both predicted and published reactions. The system
         derives its knowledge from large reaction databases and carries out retrosynthetic analysis from the target back
@@ -621,12 +611,12 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-3 right-border">
+      <div class="col-xs-3">
         <em>CIC - Certificate Intelligence Center </em>
         <div>Symantec</div>
         <div>AngularJs, Object oriented JavaScript, ExtJs and Jsp</div>
       </div>
-      <div class="col-xs-9">
+      <div class="col-xs-9 left-border">
         <em>Description:</em> Symantec Certificate Intelligence Center (CIC) is a web based enterprises application which helps
         to automate SSL certificate lifecycle management with large and midsize enterprises. A cloud-based service.
       </div>
@@ -637,12 +627,12 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-3 right-border">
+      <div class="col-xs-3">
         <em>Enterprise device manager (EDM) </em>
         <div>Avaya</div>
         <div>Object oriented JavaScript, ExtJs and Jsp</div>
       </div>
-      <div class="col-xs-9">
+      <div class="col-xs-9 left-border">
         <em>Description:</em> EDM is a Web-based graphical user interface (GUI), used to configure the Virtual Services Platform
         and access it from a Web browser. A framework is built around EDM to support multiple device configuration system.
       </div>
@@ -653,12 +643,12 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-3 right-border">
+      <div class="col-xs-3">
         <em>Aria Templates (ariatemplates.com) </em>
         <div>Amadeus</div>
         <div>Object oriented JavaScript, CSS, HTML</div>
       </div>
-      <div class="col-xs-9">
+      <div class="col-xs-9 left-border">
         <em>Description:</em> Aria Templates (AT) is a JavaScript framework based on client-side templating. As a JavaScript
         framework, AT provides a set of libraries and helpers that make it easier to develop your web application. It provides
         familiar object-oriented features such as class definitions and inheritance as well as a number of useful ways to
@@ -674,12 +664,12 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-3 right-border">
+      <div class="col-xs-3">
         <em>Altea Reservation Desktop(ARD) </em>
         <div>Amadeus</div>
         <div>J2EE, JavaScript, YUI, CSS, HTML</div>
       </div>
-      <div class="col-xs-9">
+      <div class="col-xs-9 left-border">
         <em>Description:</em> ARD is the web interface of existing ticketing system for Cathay Pacific. The entire application
         is built on top of aria UI framework, which internally uses YUI, spring framework. The end users of this application
         are the ticketing agents of Cathay so that without any training they will be able to create a PNR and issue ticket.
@@ -691,12 +681,12 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-3 right-border">
+      <div class="col-xs-3">
         <em>Conformus </em>
         <div>Stridus Infotech</div>
         <div>J2EE, JavaScript, jQuery, CSS, HTML</div>
       </div>
-      <div class="col-xs-9">
+      <div class="col-xs-9 left-border">
         <em>Description:</em> Conformus is software for managing risks, controls testing, remediation and certification. Conformus
         will enhance the productivity of staff, reduce the burden of the accepted standards for your organization, lead to
         improvements in your business processes and reduce audit fees.
@@ -708,12 +698,12 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-3 right-border">
+      <div class="col-xs-3">
         <em>AdtvWorld (adtvworld.com) </em>
         <div>Stridus Infotech</div>
         <div>J2EE, JavaScript, jQuery, CSS, HTML</div>
       </div>
-      <div class="col-xs-9">
+      <div class="col-xs-9 left-border">
         <em>Description:</em> Adtvworld is web portal for publishing video Ads. · The Ads are scheduled 24/7. · The user can
         upload there videos and select their video slot. · Email notification is sent out to the agent and their manager
         when the agent signs up or when the scheduling team cancels/reduces any slot. The Ads are played based on different
@@ -726,12 +716,12 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-3 right-border">
+      <div class="col-xs-3">
         <em>SDA-India </em>
         <div>S &amp; S Media(sandsmedia.com)</div>
         <div>PHP, JavaScript, jQuery, CSS, HTML</div>
       </div>
-      <div class="col-xs-9">
+      <div class="col-xs-9 left-border">
         <em>Description:</em> Sda-India is web portal for publishing News, Articles, Whitepapers, and magazines about the cutting
         edge technologies in the industry. Some of the basic Services available from sda-india are as follows: · Download
         magazines · Review latest technology · Subscribe for newsletters
