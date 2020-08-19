@@ -180,17 +180,23 @@ div.tec > div {
   border: 1px solid #e2dfdf;
   font-style: italic;
 }
+div.techStack {
+  font-size: 16px;
+  font-weight: 600;
+}
+div.skillsused {
+  font-size: 12px;
+  font-weight: normal;
+  padding-left: 24px;
+}
 
 .techStack span {
   border: 1px solid #f1eded;
   border-radius: 4px;
   padding: 3px 5px;
   display: inline-block;
-  font-size: 16px;
-  font-weight: 600;
   background: #b2becd;
   color: #000;
-
 }
 .techStack span.javascript {
   background: #f0db4f;
