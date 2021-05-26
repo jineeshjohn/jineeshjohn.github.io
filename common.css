@@ -208,7 +208,11 @@ div.skillsused {
 }
 .techStack span.node {
   background: #90c53f;
-color: #46483d;
+  color: #46483d;
+}
+.techStack span.firebase {
+  background: #051e34;
+  color: #ffa60f;
 }
 .techStack span.html5 {
   background: rgb(221, 75, 38);
@@ -218,7 +222,8 @@ color: #46483d;
   background: rgb(221, 75, 38);
   color: #fff;
 }
-.techStack span.css3, .techStack span.docker {
+.techStack span.css3,
+.techStack span.docker {
   background: rgb(10, 115, 184);
   color: #fff;
 }
