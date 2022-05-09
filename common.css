@@ -207,6 +207,10 @@ div.skillsused {
   background-color: #222;
   color: #00d8ff;
 }
+.techStack span.typescript {
+  background-color: #3178c6;
+  color: #fff;
+}
 .techStack span.node {
   background: #90c53f;
   color: #46483d;
