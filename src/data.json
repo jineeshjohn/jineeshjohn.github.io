@@ -1,0 +1,137 @@
+[
+  {
+    "designation": "Fullstack Developer",
+    "company": "Johnson Matthey - Zensar - contract",
+    "year": "November 2021 - Present",
+    "desc": [
+      "Upgrade old aim portal to azure cloud to improve slow data transfer, customer support and user experience",
+      "Used technologies React,TypeScript, Next.js, Headless react components, Azure",
+      "Build role based access for users"
+    ]
+  },
+  {
+    "designation": "Fullstack Developer",
+    "company": "Sky - Zensar - contract",
+    "year": "June 2021 - November 2021",
+    "desc": [
+      "Add features for sky.com web in republic of ireland side using using React, node.js, html5, css3, scss",
+      "Find unknown journeys and track errors with adobe analytics, kibana logs and dynatrace"
+    ]
+  },
+  {
+    "designation": "Fullstack Developer",
+    "company": "Dropmagnet - consultant",
+    "year": "April 2021 - May 2021",
+    "desc": [
+      "Create selling platform for collectors and creators using React, firebase, GCP, html5 and css3",
+      "Create tinder like swipe on web",
+      "Create full page gallery using react spring"
+    ]
+  },
+  {
+    "designation": "Fullstack Developer",
+    "company": "Johnpaul Joseph Ltd - consultant",
+    "year": "May 2020 - March 2021",
+    "desc": [
+      "Build interactive data platform using react, html5 and css3",
+      "Automating data/web scraping processes using nodejs and puppeteer",
+      "Develop digital ocean cloud platform."
+    ]
+  },
+  {
+    "designation": "Fullstack Developer",
+    "company": "Dixons Carphone - Currys - contract",
+    "year": "Sept 2019 - April 2020",
+    "desc": [
+      "Develop and maintain (currys.co.uk) website",
+      "Improving the quality of the legacy code base and developing new product features",
+      "Develop and migrate legacy php api's to nodejs",
+      "Coordinated with engineering and product teams in identification of customer requirements"
+    ]
+  },
+  {
+    "designation": "Full Stack JavaScript Developer",
+    "company": "Virtusa - Lloyds banking group - contract",
+    "year": "July 2018 - July 2019",
+    "desc": [
+      "Create micro-frontend platform using npm module and react components",
+      "Migrate to function components and use react hooks",
+      "Create framework for testing UI using nodejs and pm2",
+      "Develop pipeline for automated build and deploy to nexus repository and publish to rancher.",
+      "Wire up react components with restful json api response data."
+    ]
+  },
+  {
+    "designation": "Frontend Developer",
+    "company": "Nationwide Building Society - contract",
+    "year": "July 2017 - May 2018",
+    "desc": [
+      "Build applications according to the design and provide designers with feedback and suggest trade-offs when required",
+      "Design and develop the business logic and back-end systems of the product",
+      "Ensure the code follows latest coding practices and industry standards",
+      "Design and develop functional, performing and complete APIs",
+      "Write both unit and snapshot tests",
+      "Challenge ideas and opinions to avoid pitfalls and inefficient solutions",
+      "Develop high quality, well documented, and efficient code"
+    ]
+  },
+  {
+    "designation": "Senior Software Engineer ",
+    "company": "John Wiley & Sons",
+    "year": "Aug 2015 - June 2017",
+    "desc": [
+      "Build dashboard to show the relationship between the chemical components using `D3.js` ",
+      "Improve image quality by converting jpegs to svgs keeping performance",
+      "Migrate backbone project to React - Redux",
+      "Develop new features using React - Redux"
+    ]
+  },
+  {
+    "designation": "Senior Software Engineer ",
+    "company": "Symantec Corporation",
+    "year": "Sep 2014 - Jun 2015 ",
+    "desc": [
+      "CIC - Core Front End Developer to manage the UI developed using OOJS and EXTJs ",
+      "Created Employee Stories portal using Angular Js ",
+      "Framework migration to Angular Js "
+    ]
+  },
+  {
+    "designation": "Senior Software Engineer",
+    "company": "Avaya",
+    "year": "Nov 2012 - Aug 2014",
+    "desc": [
+      "Ported ExtJs2.3 to Ext.4.1 ",
+      "Integrated a build system for upgrading collaboration pod ",
+      "Using OOJS and ExtJs to create a multi-tabbed polling system for collaboration pod",
+      "Code Review and Performance Analysis ",
+      "Project documentation and hiring new members"
+    ]
+  },
+  {
+    "designation": "Senior Software Engineer",
+    "company": "Amadeus - Ness Technologies ",
+    "year": "Dec 2009 - Oct 2012 ",
+    "desc": [
+      "Framework developer developing templating framework (ariatemplates.com) an open source framework maintained in GitHub(github.com/ariatemplates) follows Test Driven Development (TDD)",
+      "ARD - Develop UI templates as per w3c standard provide dynamic behaviour with JS"
+    ]
+  },
+  {
+    "designation": "Software Engineer",
+    "company": "Software Engineer",
+    "year": "July 2007 - Dec 2009",
+    "desc": [
+      "Conformus - Develop UI templates and custom tags in Java and provide dynamic behaviour with JS",
+      "AdtvWorld - Integration of flv player on UI and html mock creation"
+    ]
+  },
+  {
+    "designation": "Web Developer",
+    "company": "S&S Media",
+    "year": "Oct 2006 - July 2007",
+    "desc": [
+      "Sda-India - Creating html mock-ups and improving the user experience using AJAX"
+    ]
+  }
+]
