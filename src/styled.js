@@ -105,3 +105,10 @@ export const Tech = styled.span`
   font-weight: 700;
   margin-right: 5px;
 `;
+export const TechItem = styled.em`
+  margin-right: 5px;
+  background: #f4f4f4;
+  font-size: 11px;
+  border-radius: 5px;
+  padding: 3px;
+`;

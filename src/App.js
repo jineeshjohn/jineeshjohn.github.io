@@ -14,6 +14,7 @@ import {
   ContactsGrid,
   ContactsGridCell,
   Tech,
+  TechItem,
 } from './styled';
 
 export default function App() {
@@ -172,35 +173,6 @@ export default function App() {
         </tbody>
       </table>
 
-      <table style={{ width: '100%' }}>
-        <tbody>
-          <tr>
-            <td>
-              <Header2>Experimenting with</Header2>
-              <ul>
-                <li>GraphQL</li>
-                <li>Functional programming using RamdaJs</li>
-                <li>TypeScript</li>
-                <li>LernaJs</li>
-                <li>Artillery</li>
-                <li>Rancher</li>
-              </ul>
-            </td>
-            <td>
-              <Header2>Other techs</Header2>
-              <ul>
-                <li>Jira</li>
-                <li>Agile - Scrum</li>
-                <li>Backbone.js</li>
-                <li>Underscore.js</li>
-                <li>Handlebar.js</li>
-                <li>Bootstrap.css</li>
-              </ul>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-
       <Header2>Work experience</Header2>
 
       {data.map((exp) => {
@@ -217,6 +189,13 @@ export default function App() {
                   <li>{descItem}</li>
                 ))}
               </ul>
+              {exp.tech && (
+                <div style={{ margin: '10px 20px' }}>
+                  {exp.tech.map((descItem) => (
+                    <TechItem>{descItem}</TechItem>
+                  ))}
+                </div>
+              )}
             </SummaryGridCell>
           </SummaryGrid>
         );

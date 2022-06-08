@@ -1,12 +1,22 @@
 [
   {
-    "designation": "Fullstack Developer",
+    "designation": "Fullstack Developer lead",
     "company": "Johnson Matthey - Zensar - contract",
     "year": "November 2021 - Present",
     "desc": [
-      "Upgrade old aim portal to azure cloud to improve slow data transfer, customer support and user experience",
-      "Used technologies React,TypeScript, Next.js, Headless react components, Azure",
+      "Move manually handled aim portal to azure IoT cloud and improved slow data transfer, customer support and user experience",
       "Build role based access for users"
+    ],
+    "tech": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "Headless react components",
+      "Azure cloud",
+      "Git github",
+      "styled-components",
+      "HTML5",
+      "CSS3"
     ]
   },
   {
@@ -14,8 +24,18 @@
     "company": "Sky - Zensar - contract",
     "year": "June 2021 - November 2021",
     "desc": [
-      "Add features for sky.com web in republic of ireland side using using React, node.js, html5, css3, scss",
+      "Add features for sky.com web in republic of ireland side",
       "Find unknown journeys and track errors with adobe analytics, kibana logs and dynatrace"
+    ],
+    "tech": [
+      "React",
+      "npm modules",
+      "GraphQL",
+      "CSS Grid ",
+      "styled-components",
+      "Adobe Analytics",
+      "Kibana logs",
+      "Dynatrace"
     ]
   },
   {
@@ -23,9 +43,16 @@
     "company": "Dropmagnet - consultant",
     "year": "April 2021 - May 2021",
     "desc": [
-      "Create selling platform for collectors and creators using React, firebase, GCP, html5 and css3",
-      "Create tinder like swipe on web",
-      "Create full page gallery using react spring"
+      "Create selling platform for collectors and creators",
+      "Create tinder like swipe on web and page gallery"
+    ],
+    "tech": [
+      "React",
+      "React spring",
+      "google cloud",
+      "firebase",
+      "HTML5",
+      "CSS3"
     ]
   },
   {
@@ -33,9 +60,16 @@
     "company": "Johnpaul Joseph Ltd - consultant",
     "year": "May 2020 - March 2021",
     "desc": [
-      "Build interactive data platform using react, html5 and css3",
-      "Automating data/web scraping processes using nodejs and puppeteer",
-      "Develop digital ocean cloud platform."
+      "Build interactive data platform",
+      "Automating data/web scraping processes using nodejs and puppeteer"
+    ],
+    "tech": [
+      "React",
+      "node.js",
+      "digital ocean cloud",
+      "puppeteer",
+      "HTML5",
+      "CSS3"
     ]
   },
   {
@@ -47,7 +81,8 @@
       "Improving the quality of the legacy code base and developing new product features",
       "Develop and migrate legacy php api's to nodejs",
       "Coordinated with engineering and product teams in identification of customer requirements"
-    ]
+    ],
+    "tech": ["React", "Redux", "node.js", "legacy app", "php", "HTML5", "CSS3"]
   },
   {
     "designation": "Full Stack JavaScript Developer",
@@ -59,6 +94,19 @@
       "Create framework for testing UI using nodejs and pm2",
       "Develop pipeline for automated build and deploy to nexus repository and publish to rancher.",
       "Wire up react components with restful json api response data."
+    ],
+    "tech": [
+      "React",
+      "React hooks",
+      "node.js",
+      "Jest with React testing lib",
+      "Functional JS",
+      "REST API",
+      "docker",
+      "jenkins",
+      "rancher",
+      "postman collection",
+      "CSS flexbox"
     ]
   },
   {
@@ -73,6 +121,16 @@
       "Write both unit and snapshot tests",
       "Challenge ideas and opinions to avoid pitfalls and inefficient solutions",
       "Develop high quality, well documented, and efficient code"
+    ],
+    "tech": [
+      "React",
+      "React hooks",
+      "redux",
+      "REST API",
+      "docker",
+      "git bitbucket",
+      "Jest",
+      "Snapshot Enzyme"
     ]
   },
   {
@@ -84,7 +142,8 @@
       "Improve image quality by converting jpegs to svgs keeping performance",
       "Migrate backbone project to React - Redux",
       "Develop new features using React - Redux"
-    ]
+    ],
+    "tech": ["React", "Backbone.js", "HTML5", "CSS"]
   },
   {
     "designation": "Senior Software Engineer ",
@@ -94,7 +153,8 @@
       "CIC - Core Front End Developer to manage the UI developed using OOJS and EXTJs ",
       "Created Employee Stories portal using Angular Js ",
       "Framework migration to Angular Js "
-    ]
+    ],
+    "tech": ["Angular", "JavaScript", "HTML5", "CSS"]
   },
   {
     "designation": "Senior Software Engineer",
@@ -106,7 +166,8 @@
       "Using OOJS and ExtJs to create a multi-tabbed polling system for collaboration pod",
       "Code Review and Performance Analysis ",
       "Project documentation and hiring new members"
-    ]
+    ],
+    "tech": ["ExtJs", "HTML5", "CSS"]
   },
   {
     "designation": "Senior Software Engineer",
@@ -115,7 +176,8 @@
     "desc": [
       "Framework developer developing templating framework (ariatemplates.com) an open source framework maintained in GitHub(github.com/ariatemplates) follows Test Driven Development (TDD)",
       "ARD - Develop UI templates as per w3c standard provide dynamic behaviour with JS"
-    ]
+    ],
+    "tech": ["Java UI", "OO JavaScript", "jQuery", "HTML5", "CSS"]
   },
   {
     "designation": "Software Engineer",
@@ -124,7 +186,8 @@
     "desc": [
       "Conformus - Develop UI templates and custom tags in Java and provide dynamic behaviour with JS",
       "AdtvWorld - Integration of flv player on UI and html mock creation"
-    ]
+    ],
+    "tech": ["Java UI", "JavaScript", "jQuery", "HTML", "CSS", "Action Script"]
   },
   {
     "designation": "Web Developer",
@@ -132,6 +195,7 @@
     "year": "Oct 2006 - July 2007",
     "desc": [
       "Sda-India - Creating html mock-ups and improving the user experience using AJAX"
-    ]
+    ],
+    "tech": ["PHP", "JavaScript", "jQuery", "HTML", "CSS"]
   }
 ]
