@@ -89,7 +89,9 @@ export default function App() {
         <li>Experience working within an Agile, DevOps environment.</li>
         <li>Strong experience with testing frameworks and libraries</li>
         <li>Proficiency with TDD &amp; BDD</li>
-        <li>Good understanding of containerisation (Docker)</li>
+        <li>
+          Good understanding on development setup with Mac, Linux and windows{' '}
+        </li>
       </ul>
       <Header2>Tech stack primary</Header2>
       <div>
@@ -155,7 +157,8 @@ export default function App() {
               <em>DevOps</em>
               <ul>
                 <li>Docker</li>
-                <li>Docker Compose</li>
+                <li>Linux</li>
+                <li>Cloud service</li>
                 <li>Jenkins</li>
                 <li>Git</li>
               </ul>
