@@ -24,7 +24,7 @@ export default function App() {
         <NameSection>
           <div className="label-name">JINEESH JOHN</div>
           <div className="label-designation">
-            Fullstack JavaScript Developer
+            Full stack JavaScript Developer
           </div>
           <div className="label-slogon">
             I solve problems and help people overcome obstacles.
@@ -83,14 +83,14 @@ export default function App() {
           Web Development.
         </li>
         <li>
-          Strong experience on frontend with Node JS, JavaScript(ES6), HTML/CSS
-          and supporting technologies
+          Strong experience on the frontend with Node JS, JavaScript (ES6),
+          HTML/CSS and supporting technologies
         </li>
         <li>Experience working within an Agile, DevOps environment.</li>
         <li>Strong experience with testing frameworks and libraries</li>
         <li>Proficiency with TDD &amp; BDD</li>
         <li>
-          Good understanding on development setup with Mac, Linux and windows{' '}
+          Good understanding of development setup with Mac, Linux, and windows{' '}
         </li>
       </ul>
       <Header2>Tech stack primary</Header2>

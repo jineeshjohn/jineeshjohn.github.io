@@ -1,6 +1,6 @@
 [
   {
-    "designation": "Fullstack Developer lead",
+    "designation": "Full-stack Developer lead",
     "company": "Johnson Matthey - Zensar - contract",
     "year": "November 2021 - Present",
     "desc": [
@@ -20,11 +20,11 @@
     ]
   },
   {
-    "designation": "Fullstack Developer",
+    "designation": "Full-stack Developer",
     "company": "Sky - Zensar - contract",
     "year": "June 2021 - November 2021",
     "desc": [
-      "Add features for sky.com web in republic of ireland side",
+      "Add features for sky.com web on the republic of ireland side",
       "Find unknown journeys and track errors with adobe analytics, kibana logs and dynatrace"
     ],
     "tech": [
@@ -39,12 +39,12 @@
     ]
   },
   {
-    "designation": "Fullstack Developer",
+    "designation": "Full-stack Developer",
     "company": "Dropmagnet - consultant",
     "year": "April 2021 - May 2021",
     "desc": [
       "Create selling platform for collectors and creators",
-      "Create tinder like swipe on web and page gallery"
+      "Create tinder-like swipe on the web and page gallery"
     ],
     "tech": [
       "React",
@@ -56,7 +56,7 @@
     ]
   },
   {
-    "designation": "Fullstack Developer",
+    "designation": "Full-stack Developer",
     "company": "Johnpaul Joseph Ltd - consultant",
     "year": "May 2020 - March 2021",
     "desc": [
@@ -73,27 +73,27 @@
     ]
   },
   {
-    "designation": "Fullstack Developer",
+    "designation": "Full-stack Developer",
     "company": "Dixons Carphone - Currys - contract",
     "year": "Sept 2019 - April 2020",
     "desc": [
       "Develop and maintain (currys.co.uk) website",
       "Improving the quality of the legacy code base and developing new product features",
-      "Develop and migrate legacy php api's to nodejs",
-      "Coordinated with engineering and product teams in identification of customer requirements"
+      "Develop and migrate legacy PHP API'S to NodeJS",
+      "Coordinated with engineering and product teams in the identification of customer requirements"
     ],
     "tech": ["React", "Redux", "node.js", "legacy app", "php", "HTML5", "CSS3"]
   },
   {
-    "designation": "Full Stack JavaScript Developer",
-    "company": "Virtusa - Lloyds banking group - contract",
+    "designation": "Full-stack JavaScript Developer",
+    "company": "Virtusa - Lloyd's banking group - contract",
     "year": "July 2018 - July 2019",
     "desc": [
-      "Create micro-frontend platform using npm module and react components",
+      "Create a micro-frontend platform using the npm module and react components",
       "Migrate to function components and use react hooks",
-      "Create framework for testing UI using nodejs and pm2",
-      "Develop pipeline for automated build and deploy to nexus repository and publish to rancher.",
-      "Wire up react components with restful json api response data."
+      "Create a framework for testing UI using NodeJS and pm2",
+      "Develop a pipeline for automated build and deploy to nexus repository and publish to rancher.",
+      "Wire up react components with restful JSON API response data."
     ],
     "tech": [
       "React",
@@ -116,11 +116,11 @@
     "desc": [
       "Build applications according to the design and provide designers with feedback and suggest trade-offs when required",
       "Design and develop the business logic and back-end systems of the product",
-      "Ensure the code follows latest coding practices and industry standards",
+      "Ensure the code follows the latest coding practices and industry standards",
       "Design and develop functional, performing and complete APIs",
       "Write both unit and snapshot tests",
       "Challenge ideas and opinions to avoid pitfalls and inefficient solutions",
-      "Develop high quality, well documented, and efficient code"
+      "Develop high-quality, well documented, and efficient code"
     ],
     "tech": [
       "React",
@@ -138,8 +138,8 @@
     "company": "John Wiley & Sons",
     "year": "Aug 2015 - June 2017",
     "desc": [
-      "Build dashboard to show the relationship between the chemical components using `D3.js` ",
-      "Improve image quality by converting jpegs to svgs keeping performance",
+      "Build a dashboard to show the relationship between the chemical components using `D3.js` ",
+      "Improve image quality by converting jpegs to SVG keeping performance",
       "Migrate backbone project to React - Redux",
       "Develop new features using React - Redux"
     ],
@@ -174,8 +174,8 @@
     "company": "Amadeus - Ness Technologies ",
     "year": "Dec 2009 - Oct 2012 ",
     "desc": [
-      "Framework developer developing templating framework (ariatemplates.com) an open source framework maintained in GitHub(github.com/ariatemplates) follows Test Driven Development (TDD)",
-      "ARD - Develop UI templates as per w3c standard provide dynamic behaviour with JS"
+      "Framework developer developing templating framework (ariatemplates.com) an open-source framework maintained on GitHub(github.com/ariatemplates) follows Test-Driven Development (TDD)",
+      "ARD - Develop UI templates as per w3c standard to provide dynamic behavior with JS"
     ],
     "tech": ["Java UI", "OO JavaScript", "jQuery", "HTML5", "CSS"]
   },
@@ -184,7 +184,7 @@
     "company": "Software Engineer",
     "year": "July 2007 - Dec 2009",
     "desc": [
-      "Conformus - Develop UI templates and custom tags in Java and provide dynamic behaviour with JS",
+      "Conformus - Develop UI templates and custom tags in Java and provide dynamic behavior with JS",
       "AdtvWorld - Integration of flv player on UI and html mock creation"
     ],
     "tech": ["Java UI", "JavaScript", "jQuery", "HTML", "CSS", "Action Script"]
@@ -194,7 +194,7 @@
     "company": "S&S Media",
     "year": "Oct 2006 - July 2007",
     "desc": [
-      "Sda-India - Creating html mock-ups and improving the user experience using AJAX"
+      "Sda-India - Creating HTML mock-ups and improving the user experience using AJAX"
     ],
     "tech": ["PHP", "JavaScript", "jQuery", "HTML", "CSS"]
   }
