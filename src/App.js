@@ -1,6 +1,5 @@
-import './styles.css';
-import styled from 'styled-components';
-import data from './data';
+import "./styles.css";
+import data from "./data";
 import {
   Header2,
   SummaryGrid,
@@ -14,8 +13,8 @@ import {
   ContactsGrid,
   ContactsGridCell,
   Tech,
-  TechItem,
-} from './styled';
+  TechItem
+} from "./styled";
 
 export default function App() {
   return (
@@ -90,7 +89,7 @@ export default function App() {
         <li>Strong experience with testing frameworks and libraries</li>
         <li>Proficiency with TDD &amp; BDD</li>
         <li>
-          Good understanding of development setup with Mac, Linux, and windows{' '}
+          Good understanding of development setup with Mac, Linux, and windows{" "}
         </li>
       </ul>
       <Header2>Tech stack primary</Header2>
@@ -124,21 +123,21 @@ export default function App() {
       </div>
 
       <Header2>Tech stack secondary</Header2>
-      <table style={{ width: '100%' }}>
+      <table style={{ width: "100%" }}>
         <tbody>
           <tr>
             <td>
               <em>Frontend</em>
               <ul>
                 <li>JavaScript</li>
+                <li>TypeScript</li>
                 <li>Redux</li>
-                <li>RamdaJs</li>
+                <li>GraphQL</li>
                 <li>Styled components</li>
                 <li>Sass</li>
                 <li>JQuery.js</li>
-                <li>Webpack</li>
-                <li>Babel</li>
-                <li>Require.js</li>
+
+                <li>Mocha.js</li>
               </ul>
             </td>
             <td>
@@ -150,7 +149,6 @@ export default function App() {
                 <li>PM2</li>
                 <li>RESTful web service(JSON)</li>
                 <li>supertest</li>
-                <li>Mocha.js</li>
               </ul>
             </td>
             <td>
@@ -193,7 +191,7 @@ export default function App() {
                 ))}
               </ul>
               {exp.tech && (
-                <div style={{ margin: '10px 20px' }}>
+                <div style={{ margin: "10px 20px" }}>
                   {exp.tech.map((descItem) => (
                     <TechItem>{descItem}</TechItem>
                   ))}
