@@ -53,6 +53,7 @@ export default function App() {
             <div>Github</div>
             <div>
               <a
+                rel="noreferrer"
                 className="cellValue"
                 target="_blank"
                 href="https://github.com/jineeshjohn"
@@ -65,6 +66,7 @@ export default function App() {
             <div>Linkedin</div>
             <div>
               <a
+                rel="noreferrer"
                 className="cellValue"
                 href="https://www.linkedin.com/in/jineeshjohn"
                 target="_blank"

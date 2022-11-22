@@ -1,11 +1,29 @@
 [
   {
+    "designation": "Senior frontend developer",
+    "company": "Adobe - contract",
+    "year": "Aug 2022 - Nov 2022",
+    "desc": [
+      "Adobe licensing app migration angular to react",
+      "App automation using cypress"
+    ],
+    "tech": [
+      "React",
+      "React spectrum",
+      "Storybook",
+      "Angular migration",
+      "Git github",
+      "HTML5",
+      "CSS3"
+    ]
+  },
+  {
     "designation": "Full-stack Developer lead",
     "company": "Johnson Matthey - Zensar - contract",
-    "year": "November 2021 - Present",
+    "year": "Nov 2021 - June 2022",
     "desc": [
       "Move manually handled aim portal to azure IoT cloud and improved slow data transfer, customer support and user experience",
-      "Build role based access for users"
+      "Build role-based access for users"
     ],
     "tech": [
       "React",
