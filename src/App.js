@@ -37,7 +37,7 @@ export default function App() {
         <ContactsGridCell>
           <div className="row">
             <div>Mobile</div>
-            <div className="cellValue">07525100701</div>
+            <div className="cellValue">0415898450</div>
           </div>
           <div className="row">
             <div>Email</div>
