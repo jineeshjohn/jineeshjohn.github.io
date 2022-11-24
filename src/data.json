@@ -59,34 +59,22 @@
   },
   {
     "designation": "Full-stack Developer",
-    "company": "Dropmagnet - consultant",
-    "year": "April 2021 - May 2021",
+    "company": "Johnpaul Joseph Ltd - consultant",
+    "year": "May 2020 - March 2021",
     "desc": [
+      "Build interactive data platform",
+      "Automating data/web scraping processes using nodejs and puppeteer",
       "Create selling platform for collectors and creators",
       "Create tinder-like swipe on the web and page gallery"
     ],
     "tech": [
       "React",
       "React spring",
-      "google cloud",
-      "firebase",
-      "HTML5",
-      "CSS3"
-    ]
-  },
-  {
-    "designation": "Full-stack Developer",
-    "company": "Johnpaul Joseph Ltd - consultant",
-    "year": "May 2020 - March 2021",
-    "desc": [
-      "Build interactive data platform",
-      "Automating data/web scraping processes using nodejs and puppeteer"
-    ],
-    "tech": [
-      "React",
       "node.js",
       "digital ocean cloud",
       "puppeteer",
+      "google cloud",
+      "firebase",
       "HTML5",
       "CSS3"
     ]
