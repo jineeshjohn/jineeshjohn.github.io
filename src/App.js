@@ -45,7 +45,7 @@ export default function App() {
           </div>
           <div className="row">
             <div>Location</div>
-            <div className="cellValue">London</div>
+            <div className="cellValue">Melbourne</div>
           </div>
         </ContactsGridCell>
         <ContactsGridCell>
