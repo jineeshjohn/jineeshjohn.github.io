@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const NameSection = styled.div`
   .label-name {
@@ -100,8 +100,8 @@ export const Tech = styled.span`
   border-radius: 4px;
   padding: 3px 5px;
   display: inline-block;
-  background: #${({ bg = 'b2becd' }) => bg};
-  color: #${({ fg = '000' }) => fg};
+  background: #${({ bg = "b2becd" }) => bg};
+  color: #${({ fg = "000" }) => fg};
   font-weight: 700;
   margin-right: 5px;
 `;

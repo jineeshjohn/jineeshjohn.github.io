@@ -84,6 +84,10 @@ export default function App() {
           Web Development.
         </li>
         <li>
+          Full stack development experience including React, AWS/Azure, and
+          CI/CD.
+        </li>
+        <li>
           Strong experience on the frontend with Node JS, JavaScript (ES6),
           HTML/CSS and supporting technologies
         </li>
@@ -178,9 +182,9 @@ export default function App() {
 
       <Header2>Work experience</Header2>
 
-      {data.map((exp) => {
+      {data.map((exp, expIndex) => {
         return (
-          <SummaryGrid>
+          <SummaryGrid key={expIndex}>
             <SummaryGridCell className="separator">
               <Designation>{exp.designation}</Designation>
               <Company>{exp.company}</Company>
@@ -188,14 +192,14 @@ export default function App() {
             </SummaryGridCell>
             <SummaryGridCell>
               <ul>
-                {exp.desc.map((descItem) => (
-                  <li>{descItem}</li>
+                {exp.desc.map((descItem, descIndex) => (
+                  <li key={descIndex}>{descItem}</li>
                 ))}
               </ul>
               {exp.tech && (
                 <div style={{ margin: "10px 20px" }}>
-                  {exp.tech.map((descItem) => (
-                    <TechItem>{descItem}</TechItem>
+                  {exp.tech.map((descItem, tecIndex) => (
+                    <TechItem key={tecIndex}>{descItem}</TechItem>
                   ))}
                 </div>
               )}
@@ -204,8 +208,8 @@ export default function App() {
         );
       })}
       <Header2>Education</Header2>
-      <div class="edu">Master of computer application - 2009</div>
-      <div class="edu">Bachelor of computer science - 2006</div>
+      <div className="edu">Master of computer application - 2009</div>
+      <div className="edu">Bachelor of computer science - 2006</div>
     </div>
   );
 }
