@@ -71,7 +71,7 @@ export default function App() {
                 href="https://www.linkedin.com/in/jineeshjohn"
                 target="_blank"
               >
-                linkedin.com/in/jineeshjohn/
+                linkedin.com/in/jineeshjohn
               </a>
             </div>
           </div>
